@@ -1,0 +1,12 @@
+<h1>Your coach replied!</h1>
+<div class="question message">
+    <h2>You asked:</h2>
+    <p><%= @question %></p>
+</div>
+
+<div class="answer message">
+    <h2>Coach says:</h2>
+    <p><%= @answer %></p>
+</div>
+
+<%= link_to "Ask another question", ask_path %>
